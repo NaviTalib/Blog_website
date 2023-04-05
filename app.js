@@ -23,6 +23,10 @@ app.get("/about",function(req,res){
   res.render("about",{aboutPageString : aboutContent});
 });
 
+app.get("/contact",function(req,res){
+  res.render("contact",{contactPageString:contactContent});
+})
+
 
 
 
